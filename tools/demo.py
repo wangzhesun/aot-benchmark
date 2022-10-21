@@ -21,7 +21,7 @@ from utils.checkpoint import load_network
 
 from dataloaders.eval_datasets import VOSTest
 import dataloaders.video_transforms as tr
-from utils.image import save_mask
+from aot_utils.image import save_mask
 
 _palette = [
     255, 0, 0, 0, 0, 139, 255, 255, 84, 0, 255, 0, 139, 0, 139, 0, 128, 128,

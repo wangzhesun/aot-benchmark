@@ -5,8 +5,8 @@ import torch.nn.functional as F
 import numpy as np
 from typing import Dict,List
 
-from utils.math import generate_permute_matrix
-from utils.image import one_hot_mask
+from aot_utils.math import generate_permute_matrix
+from aot_utils.image import one_hot_mask
 
 from networks.layers.basic import seq_to_2d
 

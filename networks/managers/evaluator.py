@@ -12,9 +12,9 @@ from torchvision import transforms
 from dataloaders.eval_datasets import YOUTUBEVOS_Test, YOUTUBEVOS_DenseTest, DAVIS_Test, EVAL_TEST
 import dataloaders.video_transforms as tr
 
-from utils.image import flip_tensor, save_mask
-from utils.checkpoint import load_network
-from utils.eval import zip_folder
+from aot_utils.image import flip_tensor, save_mask
+from aot_utils.checkpoint import load_network
+from aot_utils.eval import zip_folder
 
 from networks.models import build_vos_model
 from networks.engines import build_engine
