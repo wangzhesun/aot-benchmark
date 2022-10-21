@@ -4,7 +4,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-from utils.math import truncated_normal_
+from aot_utils.math import truncated_normal_
 
 
 class Downsample2D(nn.Module):
